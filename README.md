@@ -3,8 +3,8 @@
 ### Overview
 This project aims to predict whether or not an employee will leave the company and determine the features that greatly affects this behavior. A logistic regression, random forest, and xgboost classifier was created and the results were compared in order to get the best model. This project utilized fictional company `Salifort Motors` HR data. The final random forest model performed with ROC-AUC score of 0.97 with precision of 0.95 and recall of 0.90. The number of projects and average monthly hours an employee work are the most influential in determining if an employee will leave the company or not.
 
-> [salifort-motors-employee-turnover](salifort-motors-employee-turnover.ipynb) is the main notebook that contains the analysis project.
-> [Executive summary](exec-summary.pdf) contains the executive summary of this project.
+[salifort-motors-employee-turnover](salifort-motors-employee-turnover.ipynb) is the main notebook that contains the analysis project.  
+[Executive summary](exec-summary.pdf) contains the executive summary of this project.
 
 ## Business Understanding
 The cost for a company of replacing an employee leaving ranges from 30% - 400% of an employee's annual salary which increases based on the role level. The company needs to spend on recruitment, onboarding, and training. Company also lost productivity as new hires require a ramp up period in order to be fully autonomous for the team. There is also the knowledge loss for the employee's experience and team burnout where the remaining personnel are required to pickup extra workload loss when an employee leave. Predicting and making initiatives to lessen employee turnover is beneficial in terms of cost and morale for the company and its employees. 
